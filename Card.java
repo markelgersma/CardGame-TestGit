@@ -5,7 +5,10 @@ import java.awt.image.BufferedImage;
 import javax.swing.ImageIcon;
 
 public class Card implements Comparable<Card>{
-	
+	// this is an extra comment
+
+  public int blah;
+
 	public int x,y; //pos
 	public boolean isVisible;
 
