@@ -8,7 +8,7 @@ public class Card implements Comparable<Card>{
 	// this is an extra comment
 
   public int blah;
-
+  public boolean canIPlay;
 	public int x,y; //pos
 	public boolean isVisible;
 
