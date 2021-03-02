@@ -5,6 +5,7 @@ public class KeyboardControl extends KeyAdapter{
     //public KeyboardControl(){};
     @Override
     public void keyPressed(KeyEvent e){
+        System.out.println("KEY PRESSED");
         int keyCode = e.getKeyCode();
         if((keyCode == KeyEvent.VK_UP) &&  (CG.Deck[0].y - 20 > 0)){
                CG.Deck[0].y = CG.Deck[0].y - 10;
