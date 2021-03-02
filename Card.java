@@ -6,7 +6,7 @@ import javax.swing.ImageIcon;
 
 public class Card implements Comparable<Card>{
 	// this is an extra comment
-
+ //test another user update powers.
   public int blah;
   public boolean canIPlay;
 	public int x,y; //pos
